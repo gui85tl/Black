@@ -5,4 +5,51 @@
 
    
 
+       
+
+<Grid>
+    <Label Text="Uma Aventura Textual"
+           TextColor="Black"
+           Margin="20"
+           FontSize="40"
+           HorizontalOptions="Center"
+           HorizontalTextAlignment="Center"
+           VerticalOptions="Center"/> 
+<Grid/>
+    <VerticalStackLayout
+        VerticalOptions="End"
+        Spacing="10"
+        Margin="10, 0, 10,"/>
+<Grid>
+        <Button Text="Iniciar"
+              Clicked="OnMenuStartButtonClicked"
+              HeightRequest="30"
+              CornerRadius="20"
+              BackgroundColor="#b2614d"
+              TextColor="Black"
+              Margin="0,0,0,10"
+              FontSize="20">
+<Grid/>             
+<Grid>
+           <Button Text="Gold"
+              Clicked="OnMenuSettingsButtonClicked"
+              BorderColor="White"
+              BorderWidth="1"
+              HeightRequest="40"
+              CornerRadius="20"
+              BackgroundColor="#821e19"
+              TextColor="Black"
+              FontSize="15">
+      <Button Text="Bem vindo ao site bem cabuloso"
+              Clicked="OnMenuAboutButtonClicked"
+              BorderColor="White"
+              BorderWidth="1"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#821e19"
+              TextColor="Black"
+              FontSize="15">
+<Grid/>
+
+
 </ContentPage>
