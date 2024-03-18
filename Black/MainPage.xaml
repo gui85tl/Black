@@ -8,6 +8,10 @@
        
 
 <Grid>
+<Grid.RowDefinition>
+<RowDefinition> Height="120"
+<RowDefinition> Height="120"
+
     <Label Text="Uma Aventura Textual"
            TextColor="Black"
            Margin="20"
@@ -15,41 +19,54 @@
            HorizontalOptions="Center"
            HorizontalTextAlignment="Center"
            VerticalOptions="Center"/> 
-<Grid/>
-    <VerticalStackLayout
-        VerticalOptions="End"
-        Spacing="10"
-        Margin="10, 0, 10,"/>
-<Grid>
+
         <Button Text="Iniciar"
-              Clicked="OnMenuStartButtonClicked"
+              Clicked="Black"
               HeightRequest="30"
               CornerRadius="20"
-              BackgroundColor="#b2614d"
-              TextColor="Black"
-              Margin="0,0,0,10"
-              FontSize="20">
-<Grid/>             
-<Grid>
+              BackgroundColor="Black"
+              TextColor="White"
+              Margin="0,0,0,0"
+              FontSize="20"/>
+
            <Button Text="Gold"
-              Clicked="OnMenuSettingsButtonClicked"
+              Clicked="Jogar"
               BorderColor="White"
-              BorderWidth="1"
-              HeightRequest="40"
+              HeightRequest="20"
               CornerRadius="20"
-              BackgroundColor="#821e19"
+              BackgroundColor="Black"
               TextColor="Black"
-              FontSize="15">
-      <Button Text="Bem vindo ao site bem cabuloso"
-              Clicked="OnMenuAboutButtonClicked"
+              FontSize="15"/>
+      <Button Text="site"
+              Clicked="Proximo"
               BorderColor="White"
               BorderWidth="1"
-              HeightRequest="50"
-              CornerRadius="25"
-              BackgroundColor="#821e19"
-              TextColor="Black"
-              FontSize="15">
+              HeightRequest="60"
+              CornerRadius="20"
+              BackgroundColor="Green"
+              TextColor="White"
+              FontSize="10"/>
+
+
+<Label Text="yfghhjgjgv"
+                TextColor="Black"
+                BackgroundColor="Black"
+                Margin="20"
+                HorizontalOptions="Center"/>
+<Grid>
+                <Image Source="ghost.jpg"
+                 Opacity=".6"
+                 Aspect="AspectFill"/>
+        <Label Text="Uma Aventura Textual"
+           TextColor="Black"
+           Margin="20"
+           FontSize="60"
+           HorizontalOptions="Center"
+           HorizontalTextAlignment="Center"
+           VerticalOptions="Center"/>
 <Grid/>
 
 
+
+</Grid>
 </ContentPage>

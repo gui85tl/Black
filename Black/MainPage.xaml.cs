@@ -9,6 +9,19 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	
-}
+	 private void Black(object sender, EventArgs args)
+	{
 
+	}
+
+	private void Jogar(object sender, EventArgs args)
+	{
+		
+	}
+
+private void Proximo(object sender, EventArgs args)
+	{
+
+	}
+
+}
